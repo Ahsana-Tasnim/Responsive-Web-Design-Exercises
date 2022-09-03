@@ -1,0 +1,36 @@
+/*
+	Ahsana Tasnim
+    Flexbox Demo
+*/
+html, body {
+    height: 100%;
+}
+.card1{
+	background-color:#f00;
+}
+.card2{
+	background-color:#ffff00f5;
+}
+.card3{
+	background-color:#099909;
+}
+
+div#flex-container{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column-reverse;
+	justify-content: flex-end;
+
+	/*flex-wrap allows us to decide if everything stays on the same row,
+	it wraps based on the viewpoint to allow multiple rows
+	*/
+	flex-wrap: wrap;
+}
+
+div#flex-container div{
+	height: 150px;
+	padding-top: 45px;
+	color: #000;
+	text-align: center;
+}
